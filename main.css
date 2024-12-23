@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stick+No+Bills:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DM+Serif+Text:ital@0;1&family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stick+No+Bills:wght@200..800&display=swap');
+
+.Hero_Section{
+    background-color: #F6F1E3 !important;
+    height: 700px;
+}
+
+.navbar-nav{
+    margin-left: 670px;
+}
+
+.navbar-brand{
+    margin: 5px 10px;
+    font-size: 30px !important;
+    font-family: 'Fredoka';
+    font-weight: 900;
+}
+
+.nav-link{
+    font-family: 'Cabin';
+    color: black !important;
+    font-size: 18px;
+    font-weight: bold !important;
+}
+
+.nav-link:hover{
+    color: #F2921D !important;
+}
+
+.nav-link{
+    margin-right: 20px;
+}
+
+.Hero_Section_content{
+    margin: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Hero_Section_content .content .name{
+    color: black;
+    font-size: 32px;
+    font-family: 'Fredoka';
+}
+
+.Hero_Section_content .content .header{
+    color: black;
+    font-size: 48px;
+    font-family: 'Fredoka';
+    font-weight: 600;
+}
+
+.Hero_Section_content .content .desc{
+    color: black;
+    font-size: 24px;
+    font-family: 'Fredoka';
+    margin-right: 250px;
+    margin-bottom: 30px;
+}
+
+.Hero_Section_content .content .social{
+    margin-bottom: 30px;
+}
+
+.Hero_Section_content .content .social img{
+    margin-right: 10px;
+}
+
+.Hero_Section_content .content .button{
+    background-color: #F2921D;
+    padding: 15px 45px;
+    font-size: 22px;
+    font-family: 'Fredoka';
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 0px 2px 5px gray,3px 3px 10px gray;
+}
+
+/************************************************************************/
+
+.About_me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 120px;
+}
+
+.About_me .right h2{
+    color: black;
+    font-size: 48px;
+    font-family: 'Fredoka';
+    font-weight: 600;
+}
+
+.About_me .right p{
+    color: black;
+    font-size: 28px;
+    font-family: 'Fredoka';
+    margin: 15px 0px 60px 0px;
+}
+
+.About_me .right .button{
+    background-color: #F2921D;
+    padding: 15px 55px;
+    font-size: 22px;
+    font-family: 'Fredoka';
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 0px 2px 5px gray,3px 3px 10px gray;
+}
+
+.About_me img{
+    margin-right: 70px;
+}
+
+/*******************************************************************/
+
+.Skills{
+    background-color: #2C402D;
+    height: 750px;
+    padding: 80px;
+}
+
+.Skills .title1{
+    color: #F6F1E3;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Cabin';
+    font-weight: lighter;
+}
+
+.Skills .title2{
+    margin-top:-18px ;
+    color: #F2921D;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Fredoka';
+    font-weight: 600;
+}
+
+.Skills .flex{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Skills .flex h3{
+    margin: 70px 0px 30px 0px;
+    font-size: 35px;
+    font-family: 'Cabin';
+}
+
+.Skills .flex .inline{
+    position: relative;
+}
+
+.Skills .flex .inline img, .Skills .flex .inline p{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.Skills .flex .inline p{
+    padding-left: 5PX;
+}
+
+.Skills .flex  .line{
+    margin-bottom: 30PX;
+}
+
+.Skills .flex .inline .right_p{
+    position: absolute;
+    right: 0px;
+}
+
+/*********************************************************************/
+
+.Qualifications_Certifications{
+    height: 750px;
+    padding: 80px;
+}
+
+.Qualifications_Certifications .title1{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Cabin';
+    font-weight: lighter;
+}
+
+.Qualifications_Certifications .title2{
+    margin-top:-18px ;
+    color: #F2921D;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Fredoka';
+    font-weight: 600;
+}
+
+.Qualifications_Certifications h3{
+    font-family: 'Cabin';
+    font-size: 32px;
+}
+
+.Qualifications_Certifications .Qual{
+    margin-top: 60px;
+}
+
+.Qualifications_Certifications .Cert{
+    margin-top:20PX; 
+}
+
+.Qualifications_Certifications .inline img,.Qualifications_Certifications .inline P{
+    display: inline-block;
+}
+
+.Qualifications_Certifications .inline P{
+    font-family: 'Cabin';
+    font-weight: bold;
+    margin-left: 5PX;
+    font-size: 20PX;
+}
+
+/********************************************************************/
+
+.Projects{
+    background-color: #F6F1E3;
+    height: 800px;
+    padding: 60px;
+}
+
+.Projects .title1{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Cabin';
+    font-weight: lighter;
+}
+
+.Projects .title2{
+    margin-top:-18px ;
+    color: #F2921D;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Fredoka';
+    font-weight: 600;
+}
+
+.Projects .flex-card{
+    margin: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2vw;
+}
+
+.Projects .flex-card .Project1,.Projects .flex-card .Project2,.Projects .flex-card .Project3{
+    background-color: #F2921D;
+    width: 400px;
+    height: 510px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.Projects .flex-card img{
+    border-radius: 10px;
+}
+
+.Projects .flex-card h3{
+    margin-top: 30px;
+    font-family: 'Fredoka';
+    font-size: 35px;
+}
+
+.Projects .flex-card p{
+    margin-top: 10px;
+    font-family: 'Fredoka';
+    font-size: 20px;
+}
+
+/*************************************************************************/
+.Contact_Me{
+    margin-bottom: 100px;
+    height: 750px;
+    padding: 80px;
+    text-align: center;
+}
+
+.Contact_Me h2{
+    margin-bottom: 50PX;
+    color: black;
+    font-size: 48px;
+    font-family: 'Fredoka';
+    font-weight: 600;
+    text-align: center;
+}
+
+.Contact_Me input{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    width: 450px;
+    height: 60px;
+    margin: 10PX 7PX;
+    padding: 0PX 10PX;
+}
+
+.Contact_Me textarea{
+    margin: 10PX;
+    padding: 10PX;
+    color: #6E6E6E;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    width: 920px;
+    height: 270px;
+}
+
+.Contact_Me .button{
+    margin-top: 50px;
+    background-color: #F2921D;
+    padding: 15px 55px;
+    font-size: 22px;
+    font-family: 'Fredoka';
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset 0px 2px 5px gray,3px 3px 10px gray;
+}
+/************************************************************************/
+
+
+footer{
+    background-color: black;
+    height: 250px;
+    text-align: center;
+}
+
+footer .logo .navbar-brand{
+ color: #F6F1E3;
+ font-size: 50px !important;
+}
+
+
+footer hr{
+    margin-top: 50px;
+    border-color: #F6F1E3 !important;
+    width: 1300px;
+}
+
+footer p{
+    color: #F6F1E3;
+}
