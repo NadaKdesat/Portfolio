@@ -68,10 +68,14 @@
 }
 
 .Hero_Section_content .content .social a{
-    margin: 0px 10px 0px 5px;
+    margin: 0px 5px 0px 5px;
     color: #F2921D;
     font-size: 1.8rem;
     text-decoration: none;
+}
+
+.Hero_Section_content .content .social a:hover{
+    transform: scale(1.2);
 }
 
 .Hero_Section_content .content .button{
@@ -276,6 +280,21 @@
     border-radius: 10px;
 }
 
+.Projects .flex-card .Project1:hover{
+    transform: scale(1.05);
+
+}
+
+.Projects .flex-card .Project2:hover{
+    transform: scale(1.05);
+
+}
+
+.Projects .flex-card .Project3:hover{
+    transform: scale(1.05);
+
+}
+
 .Projects .flex-card h3{
     margin-top: 30px;
     font-family: 'Fredoka';
@@ -324,7 +343,7 @@
 
 /*************************************************************************/
 .Contact_Me{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     height: 750px;
     padding: 40px;
     text-align: center;
@@ -388,7 +407,7 @@ footer {
   }
   
   .footer-logo {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     max-width: 300px;
   }
   
@@ -398,7 +417,7 @@ footer {
   }
   
   .footer-logo p {
-    margin: 10px 0 0;
+    margin: 10px 0 0 20px;
     font-size: 18px;
   }
   
@@ -437,6 +456,10 @@ footer {
     font-size: 1.5rem;
     text-decoration: none;
     margin-top: 80px;
+  }
+
+  .footer-social a:hover{
+    transform: scale(1.2);
   }
   
   .footer-bottom {
