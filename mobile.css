@@ -1,0 +1,290 @@
+@media screen and (max-width: 426px) {
+    .Hero_Section{
+        height: 750px;
+    }
+
+    .navbar-nav {
+        margin-left: 0;
+    }
+
+    .navbar-brand {
+        font-size: 24px !important;
+        display: block;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        margin-right: 10px;
+        text-align: left;
+        padding: 8px 0;
+    }
+
+    .Hero_Section_content {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    .Hero_Section_content .My_Image {
+        order: 1; 
+    }
+
+    .Hero_Section_content .content {
+        order: 2; 
+    }
+
+    .Hero_Section_content .content .name {
+        font-size: 24px;
+    }
+
+    .Hero_Section_content .content .header {
+        font-size: 32px;
+    }
+
+    .Hero_Section_content .content .desc {
+        font-size: 18px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .Hero_Section_content .content .social {
+        margin-bottom: 20px;
+    }
+
+    .Hero_Section_content .content .button {
+        padding: 12px 30px;
+        font-size: 18px;
+        text-decoration: none; 
+        display: inline-block;
+    }
+
+    .Hero_Section_content .My_Image img {
+        width: 250px;
+        height: auto;
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+    /*********************************************************************************/
+
+    .About_me {
+        flex-direction: column; 
+        padding: 50px 20px; 
+    }
+
+    .About_me .right h2 {
+        font-size: 32px; 
+    }
+
+    .About_me .right p {
+        font-size: 18px; 
+        margin: 15px 0px 30px 0px; 
+    }
+
+    .About_me .right .button {
+        padding: 12px 40px; 
+        font-size: 18px; 
+    }
+
+    .About_me img {
+        width: 70%;
+        height: auto;
+        margin: 0 0 30px 0; 
+    }
+
+    /******************************************************************************************/
+
+    .Skills{
+        padding: 40px 20px; 
+        height: auto;
+    }
+
+    .Skills .title2{
+        font-size: 40px; 
+    }
+
+    .Skills .flex{
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .Skills .flex .inline img{
+        height: 30px; 
+    }
+
+    .Skills .flex .inline p{
+        font-size: 18px; 
+    }
+
+    .Skills .flex .line{
+        width: 90%;
+        margin-bottom: 20px; 
+    }
+
+    .Skills .flex h3{
+        font-size: 30px; 
+    }
+
+    .Skills .flex .inline .right_p {
+        position: absolute; 
+        top: 50%;  
+        right: 10%;  
+        transform: translateY(-50%);  
+        font-size: 18px;
+    }
+
+    /**************************************************************************************/
+    
+    .Qualifications_Certifications {
+        padding: 20px;  
+        height: auto;  
+    }
+    
+    .Qualifications_Certifications .title2 {
+        font-size: 28px;  
+    }
+    
+    .Qualifications_Certifications .title1 {
+        font-size: 20px;  
+    }
+    
+    .Qualifications_Certifications h3 {
+        font-size: 24px; 
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    
+    .Qualifications_Certifications .inline {
+        text-align: left;
+        display: flex;
+        flex-direction: row;  
+        align-items: baseline;  
+        margin-bottom: 1px;
+    }
+    
+    .Qualifications_Certifications .inline p {
+        font-size: 16px;  
+        margin-left: 10px;  
+    }
+    
+    .Qualifications_Certifications .inline img {
+        height: 7px;
+        width: 7px;
+    }
+    
+    /***************************************************************************************/
+
+    .Projects{
+        height: 1800px;
+    }
+
+    .Projects .title2 {
+        font-size: 40px;
+    }
+
+    .Projects .flex-card {
+        margin: 20px;
+        grid-template-columns: 1fr; 
+    }
+
+    .Projects .flex-card .Project1, 
+    .Projects .flex-card .Project2, 
+    .Projects .flex-card .Project3 {
+        width: 100%; 
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .Projects .flex-card h3 {
+        font-size: 25px;
+    }
+
+    .Projects .flex-card p {
+        font-size: 16px;
+    }
+
+    .project-link {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    /********************************************************************************/
+
+    .Contact_Me{
+        margin: 20px 0px;
+    }
+
+    .Contact_Me h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .Contact_Me input,
+    .Contact_Me textarea {
+        width: 100%;  
+        margin: 10px 0; 
+        padding: 10px; 
+    }
+
+    .Contact_Me textarea {
+        height: 150px;
+    }
+
+    .Contact_Me .button {
+        font-size: 18px;
+        padding: 12px 40px;
+    }
+    
+    /**************************************************************************************/
+
+    .footer-content {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 20px;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px; 
+        text-align: left;
+    }
+
+    .footer-logo h2 {
+        font-size: 24px; 
+    }
+
+    .footer-logo p {
+        font-size: 14px; 
+    }
+
+    .footer-links {
+        padding: 0;
+        margin: 20px 0;
+        border-left: none;
+        text-align: left;
+    }
+
+    .footer-links li {
+        margin-bottom: 15px;
+    }
+
+    .footer-social {
+        margin: 0px auto;
+        margin-top: -90px;
+    }
+
+    .footer-social a {
+        font-size: 1.3rem; 
+        margin-bottom: 20px;
+    }
+
+    .footer-map iframe {
+        width: 100%; 
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .footer-bottom {
+        padding: 15px;
+        font-size: 14px; 
+    }
+}
