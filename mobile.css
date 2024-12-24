@@ -183,7 +183,7 @@
     }
 
     .Projects .flex-card {
-        margin: 20px;
+        margin: 5px;
         grid-template-columns: 1fr; 
     }
 
