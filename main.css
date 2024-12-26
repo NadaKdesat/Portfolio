@@ -112,17 +112,6 @@
     margin: 15px 0px 60px 0px;
 }
 
-.About_me .right .button{
-    background-color: #F2921D;
-    padding: 15px 55px;
-    font-size: 22px;
-    font-family: 'Fredoka';
-    font-weight: 500;
-    border: none;
-    border-radius: 50px;
-    box-shadow: inset 0px 2px 5px gray,3px 3px 10px gray;
-}
-
 .About_me img{
     margin-right: 70px;
 }
@@ -223,15 +212,17 @@
     margin-top:30PX; 
 }
 
-.Qualifications_Certifications .inline img,.Qualifications_Certifications .inline P{
+.Qualifications_Certifications .inline img,.Qualifications_Certifications .inline a{
     display: inline-block;
 }
 
-.Qualifications_Certifications .inline P{
+.Qualifications_Certifications .inline a{
+    text-decoration: none;
+    color: black;
     font-family: 'Cabin';
     font-weight: bold;
     margin-left: 5PX;
-    margin-top: 5px;
+    margin-top: 20px;
     font-size: 20PX;
 }
 
@@ -358,6 +349,18 @@
     text-align: center;
 }
 
+.Contact_Me .DIV {
+    display: inline-block;
+}
+
+.Contact_Me .DIV label{
+    display: block;
+    text-align: left;
+    margin: 0px 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
 .Contact_Me input{
     background-color: #D9D9D9;
     border: none;
@@ -468,5 +471,5 @@ footer {
     color: #F6F1E3;
     padding: 10px;
     margin-top: 20px;
-    border-top: 2px solid #F6F1E3;
+    border-top: 1px solid #F6F1E3;
   }

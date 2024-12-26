@@ -81,11 +81,6 @@
         margin: 15px 0px 30px 0px; 
     }
 
-    .About_me .right .button {
-        padding: 12px 40px; 
-        font-size: 18px; 
-    }
-
     .About_me img {
         width: 70%;
         height: auto;
@@ -162,7 +157,7 @@
         margin-bottom: 1px;
     }
     
-    .Qualifications_Certifications .inline p {
+    .Qualifications_Certifications .inline a{
         font-size: 16px;  
         margin-left: 10px;  
     }
@@ -211,6 +206,7 @@
     /********************************************************************************/
 
     .Contact_Me{
+        height: 800px;
         margin: 20px 0px;
     }
 
@@ -235,6 +231,13 @@
         padding: 12px 40px;
     }
     
+    .Contact_Me .DIV {
+        display: block;
+    }
+
+    .Contact_Me .DIV label{
+        margin: 0px;
+    }
     /**************************************************************************************/
 
     .footer-content {
